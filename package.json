@@ -1,6 +1,6 @@
 {
-  "name": "sharper",
-  "version": "1.0.2",
+  "name": "@willyb321/sharper",
+  "version": "1.0.3",
   "description": "Automatic image processor built on top of sharp and multer for express.",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/thatisuday/sharper.git"
+    "url": "git+https://github.com/willyb321/sharper.git"
   },
   "author": "Uday Hiwarale <uhiwarale@gmail.com> (https://github.com/thatisuday)",
   "license": "ISC",
@@ -18,21 +18,21 @@
   "homepage": "https://github.com/thatisuday/sharper#readme",
   "dependencies": {
     "async": "^2.0.0",
-    "bytes": "^2.4.0",
-    "dateformat": "^1.0.12",
+    "bytes": "^3.0.0",
+    "dateformat": "^3.0.3",
     "graceful-fs": "^4.1.4",
     "lodash": "^4.13.1",
     "mime-types": "^2.1.11",
     "multer": "^1.1.0",
     "randomstring": "^1.1.5",
-    "sharp": "^0.15.1"
+    "sharp": "^0.20.1"
   },
   "devDependencies": {
-    "chai": "^3.5.0",
+    "chai": "^4.1.2",
     "chai-files": "^1.4.0",
     "express": "^4.14.0",
-    "image-size": "^0.5.0",
+    "image-size": "^0.6.2",
     "rimraf": "^2.5.3",
-    "supertest": "^1.2.0"
+    "supertest": "^3.0.0"
   }
 }
